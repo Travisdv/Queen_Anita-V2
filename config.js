@@ -27,12 +27,12 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/H4qeXwa.jpeg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/475d7c09ee94d362c61f2.jpg,https://telegra.ph/file/cf023252dda21b29d62dc.mp4";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -49,10 +49,10 @@ module.exports = {
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  author: process.env.PACK_AUTHER || "🐐",
+  packname: process.env.PACK_NAME || "奥TRÅVÏS奥",
+  botname: process.env.BOT_NAME || "GØKÜ-MD",
+  ownername: process.env.OWNER_NAME || "奥TRÅVÏS奥",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
